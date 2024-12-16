@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    background: linear-gradient(to right, #ffffff, #bb5100);
+}
+.heading{
+    font-family: "Mulish", serif;
+    color:rgb(255, 127, 127);
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+}
+
+
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 0px;}
+}
+
+.img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 40%;
+    position: relative;
+    animation: img;
+    animation-duration: 3s;
+}
+
+
+
+
+@keyframes img {
+    0% {left: -250px;}
+    100% {left: 0px;}
+}
+
+
+
+.ingredients {
+    border: 1px solid rgb(38, 14, 191);
+    font-family: "Mulish", sans-serif;
+    color:rgb(99, 99, 230);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.ingredients-table {
+    border: 0.2px solid rgb(14, 191, 90);
+    margin-left: 2rem;
+    position: relative;
+    animation: itable;
+    animation-duration: 5s;
+}
+
+@keyframes itable {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.instructions {
+    border: 0.1px solid rgb(126, 134, 226);
+    font-family: "Mulish", sans-serif;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.instructions ul {
+    border: 5px solid rgb(126, 134, 226);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.footer {
+    color: rgb(0, 72, 90);
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    animation: foote;
+    animation-duration: 3s;
+    position: relative;
+}
+
+
+@keyframes foote {
+    0% {right: -1000px;}
+    25% {right: 20px;}
+    75% {right: 100px;}
+    100% {right: 0px;}
+}
+
+.link {
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+}
